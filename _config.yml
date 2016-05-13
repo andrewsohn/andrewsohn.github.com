@@ -13,17 +13,17 @@ baseurl: ""
 
 
 
-title: "RainyAlley"
+title: "DevSkills"
 email: "jkson21@naver.com"
-description: "Developer"
+description: "andrewthecoder"
 github_username:  "jkson21"
-swiftype_searchId: "ncwR9a8S9CTx2q9SgsJm"
-disqus_shortname: "rainyalley"
+swiftype_searchId: "tzCuXdbWqAVdUv-77RbH"
+disqus_shortname: "andrewsohn"
 
 
 
-url: "http://blog.rainyalley.com"
-imgrepo: "http://blog.rainyalley.com/static/img"
+url: "http://andrewsohn.github.io/"
+imgrepo: "http://andrewsohn.github.io/static/img"
 
 
 #url: "http://127.0.0.1:4000"
