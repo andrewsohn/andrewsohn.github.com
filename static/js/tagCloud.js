@@ -14,19 +14,19 @@
         return $this;
 
         function execute(shell){
-            //半径
+            //
             var radius = 120;
-            //是否活动
+            //
             var active = true;
-            //是否分散
+            //
             var scatter = true;
-            //旋转速度
+            //
             var speed = 2;
-            //右旋偏移
+            //
             var rightOffset = 50;
-            //下旋偏移
+            //
             var downOffset = 0;
-            //与眼睛的距离
+            //
             var distance=300;
 
             var items = shell.getElementsByTagName('a');
@@ -179,7 +179,7 @@
                     tmp.push(items[i]);
                 }
 
-                //随机排序
+                //
                 tmp.sort
                 (
                     function ()
@@ -206,7 +206,7 @@
                         phi = Math.random()*(Math.PI);
                         theta = Math.random()*(2*Math.PI);
                     }
-                    //坐标变换
+                    //
                     itemWraps[i-1].x = radius * Math.cos(theta)*Math.sin(phi);
                     itemWraps[i-1].y = radius * Math.sin(theta)*Math.sin(phi);
                     itemWraps[i-1].z = radius * Math.cos(phi);

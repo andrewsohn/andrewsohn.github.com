@@ -3,7 +3,7 @@
 ---
 
 /**
- * 页面ready方法
+ * 
  */
 $(document).ready(function() {
     generateContent();
@@ -12,7 +12,7 @@ $(document).ready(function() {
 });
 
 /**
- * 侧边目录
+ * 
  */
 function generateContent() {
     var $mt = $('.toc');
