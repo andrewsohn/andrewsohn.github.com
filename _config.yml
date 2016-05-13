@@ -16,7 +16,7 @@ baseurl: ""
 title: "DevSkills"
 email: "jkson21@naver.com"
 description: "andrewthecoder"
-github_username:  "jkson21"
+github_username:  "andrewsohn"
 swiftype_searchId: "tzCuXdbWqAVdUv-77RbH"
 disqus_shortname: "andrewsohn"
 
@@ -26,7 +26,7 @@ url: "http://andrewsohn.github.io/"
 imgrepo: "http://andrewsohn.github.io/static/img"
 
 
-#url: "http://127.0.0.1:4000"
-#imgrepo: "http://127.0.0.1:4000/static/img"
+# url: "http://127.0.0.1:4000"
+# imgrepo: "http://127.0.0.1:4000/static/img"
 #gems: [jekyll-paginate]
 
