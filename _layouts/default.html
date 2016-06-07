@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-<div class="main">
+  <body>
 
-{% include header.html %}
+    {% include sidebar.html %}
 
-    <div class="container">
-        {{ content }}
-    </div>
+    <script src="{{ site.baseurl }}/js/index.js"></script>
 
-    <div class="page-scrollTop" data-toggle="tooltip" data-placement="top" title="Top">
-        <a href="javascript:void(0);">
-            <div class="arrow"></div>
-            <div class="stick"></div>
-        </a>
-    </div>
-</div>
+  </body>
 
-{% include footer.html %}
+  <footer></footer>
 
-</body>
 </html>

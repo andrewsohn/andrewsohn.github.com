@@ -1,27 +1,25 @@
-# Must Modify
+# taken
 
-## 1.swiftype
+Taken is a minimalist two-column jekyll theme based on chapter tumblr theme 
 
-This service provides the on-site search function.
+![Taken](https://github.com/vfalanis/taken/blob/master/Taken.png)
 
-Service address： <https://swiftype.com/>.
+## Features
+* Flickr feed
+* Disqus
+* more ...
 
-After the setup is complete， you need to modify the `swiftype_searchId` in `_config.yml`.
+## Demo
+You can see a live demo of "taken" [here](http://vfalanis.github.io/taken)
 
-In your swiftype engine, go to `Setup and integration` -> `Install Search`, you could find the `swiftype_searchId`.
+## Instructions
 
-```html
-<script type="text/javascript">
-...
-...
-  _st('install','swiftype_searchId','2.0.0');
-</script>
-```
+1. Fork this repository
+2. Clone the repository to your computer.<br />`git clone https://github.com/YOURUSERNAME/taken.git` 
+3. Run it.<br />`jekyll serve`
+4. Go to http://127.0.0.1:4000.
 
-## 2.disqus
-
-This service provides the comment function.
-
-Service address： <https://disqus.com/>.
-
-After the setup is complete， you need to modify the `disqus_shortname` in `_config.yml`.
+## To do list:
+* Categories support
+* Add portfolio section
+* More...
